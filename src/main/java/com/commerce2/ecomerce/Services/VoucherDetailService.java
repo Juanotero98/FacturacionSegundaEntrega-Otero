@@ -28,4 +28,5 @@ public class VoucherDetailService {
     public void delete(Long id){
         voucherDetailRepository.deleteById(id);
     }
+
 }
